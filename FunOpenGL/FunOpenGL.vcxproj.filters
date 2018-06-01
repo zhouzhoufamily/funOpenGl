@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{1daa3979-d945-4ded-8b5d-9ae445acd131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{d82399ca-b37f-420f-bb4c-f9ccdc728d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test">
+      <UniqueIdentifier>{112ff99b-93ee-42a0-8c08-3cc596a6622c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk">
+      <UniqueIdentifier>{0d4aa7c6-7bed-4596-b818-7af385b414d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\math">
+      <UniqueIdentifier>{9699013d-ae24-4071-8f30-bba607806cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\opengl">
+      <UniqueIdentifier>{3fbfca90-0813-4f2f-9d0d-c69e314c188a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\shader">
+      <UniqueIdentifier>{328968cb-7b7b-4b39-9db2-d2dacfcb98d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sdk\util">
+      <UniqueIdentifier>{ec9b59e6-7ac9-42f3-b1c6-1fbd5458266a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\math\math3d.h">
+      <Filter>Classes\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\test.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainControll.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sdk\util\util.h">
+      <Filter>Classes\sdk\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\math\math3d.cpp">
+      <Filter>Classes\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\test.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainControll.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sdk\util\util.cpp">
+      <Filter>Classes\sdk\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
