@@ -1,0 +1,21 @@
+# Ignore config
+
+.DS_Store
+
+# CMake
+**/build/
+
+# visual studio
+**/.vs/
+*.sdf
+*.suo
+**/Debug/
+**/Release/
+**/Debug.win32/
+**/Release.win32/
+**/bin32/
+**/bin64/
+**/bin/
+
+# vscode
+**/.vscode/
